@@ -9,6 +9,5 @@ First pre-production-ready release
 - 3D renders + mason-jar lid STL
 
 License: GPLv3
-Co-designed with Grok (xAI) – November 2025
 
-Jesus is Lord of all. I thank you. Others, please join me anytime.
+Designed with Heinsight with Grok (xAI) – November 2025
