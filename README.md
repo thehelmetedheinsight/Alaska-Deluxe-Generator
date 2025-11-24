@@ -11,4 +11,4 @@ First pre-production-ready release
 License: GPLv3
 Co-designed with Grok (xAI) – November 2025
 
-Jesus is Lord of all. I praise you. I thank you. Others may join.
+Jesus is Lord of all. I thank you. Others, please join me anytime.
