@@ -1,8 +1,8 @@
-Alaska-Deluxe-Generator
+#Alaska-Deluxe-Generator
 
-Until I get the hang of Markdown, this is going to look a little messy.
+##A Self-Contained Laboratory Grade Colloidal Silver Generator - For Alaska *and beyond*.
 
-A Self-Contained Laboratory Grade Colloidal Silver Generator - For Alaska and beyond
+Until I master the art of Markdown, this will look simple.
 
 ###Some cool features we have already: (Not in order of priority)
 - Designed to take any input up to 25v maximum input or thereabouts - safe for almost any standard DC input range
@@ -16,7 +16,7 @@ A Self-Contained Laboratory Grade Colloidal Silver Generator - For Alaska and be
 - Accurate conductivity measurement of solution both *prior* and *during* production
 - Modulation of power during cycle to produce accurate PPM during and at end of cycle
 - Auto safety shutoff if power goes out of spec IN or OUT
-- 2x18650 cells probably LiFEPo, or LiIon
+- 2x18650 cells probably LiFEPo, or LiIon 
 - WiFi hostAP mode, and WiFi client mode - connect to home network
 - http interface - probably need https to avoid browser nag screens
 - beeper to signal stuff - start/stop/electrode short
@@ -32,11 +32,12 @@ A Self-Contained Laboratory Grade Colloidal Silver Generator - For Alaska and be
 - Bluetooth pairing sequence - for possible upcoming smartphone app release - also to aid hearing impaired wtih phone haptics
 - Logging of batch production for analysis stored in spare memory on device - in easily graphable format - humans like pictures
 - Logging of battery charge/energy usage for the ultra OCD perfectionists, hackers, modz
+- 4x 18650 LiFePO4 in 2S2P (7.2v) 3600mAh with charging optimization (3000-7000 charge cycles, (8-10y of daily use), Op. in -30°C
+- TEC to regain ~40% waste power and recycle it back to BMS to charge batteries while in production - extending runtimes
 
 Some ideas for "flashy" attractive things that humans like:
 - RGB rotary encoder for extra visual signalling for the hearing impaired, disable in menu to save battery
 - Cool case design - I know, repetitive, but I think many would like to have a custom case in their hands!
-- TEC to regain ~40% waste power and recycle it back to BMS to charge batteries while in production - extending runtimes
 - Possible LoRA wireless model - in case you need to step away
     
 First pre-production-ready release (very soon)
