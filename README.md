@@ -70,7 +70,7 @@ Until I master the art of Markdown, the following will look simple.
 
 I would like to offer "Custom assembled" beta versions if you just can't wait for a crowd funded production unit. These would be for contributing members of this project, money, or crypto would be an acceptable contribution.
     
-
+```
 Alaska Deluxe Colloidal Generator – Terrestrial Edition
 Copyright (C) 2025 [Your Real Name or Handle]
 
