@@ -5,7 +5,7 @@ Until I get the hang of Markdown, this is going to look a little messy.
 A Self-Contained Laboratory Grade Colloidal Silver Generator - For Alaska and beyond
 
 Some cool features we have already:
-    - Designed to take any input up to 25v maximum input or thereabouts - safe for almost any standard DC input range
+- Designed to take any input up to 25v maximum input or thereabouts - safe for almost any standard DC input range
     - Full PD compliant input options - auto select input Vpos from PD delivery
     - External 12-bit ADC 0.8mA steps - super accurate power control to the process
     - Full power protection - both ends - Input and Output
