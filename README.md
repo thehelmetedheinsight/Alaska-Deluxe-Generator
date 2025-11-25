@@ -50,11 +50,11 @@ Until I master the art of Markdown, the following will look simple.
 - Logging of batch production for analysis stored in spare memory on device - in easily graphable format - humans like pictures
 - Logging of battery charge/energy usage for the ultra OCD perfectionists, hackers, modz
 - 4x 18650 LiFePO4 in 2S2P (7.2v) 3600mAh with charging optimization (3000-7000 charge cycles, (8-10y of daily use), Op. in -30°C
-- TEC to regain ~40% waste power and recycle it back to BMS to charge batteries while in production - extending runtimes
+- TEC to recapture 80-360mW waste heat back to BMS while generating (extends runtimes 2-6x, or adds __weeks__ in standby)
 ***
 ### Some ideas for "flashy" attractive things that humans like:
-- RGB rotary encoder for extra visual signalling for the hearing impaired, disable in menu to save battery
-- Cool case design - I know, repetitive, but I think many would like to have a custom case in their hands!
+- RGB rotary encoder for visual signalling (hearing impaired), disable in menu to save battery
+- Cool case designs - As many as are useful, creators retain full credit for work
 - Possible LoRA wireless model - in case you need to step away
 ***
 ### First pre-production-ready release (very soon Q1-Q2 2026)
