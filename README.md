@@ -1,8 +1,9 @@
 # Alaska-Deluxe-Generator
 
 ## A Self-Contained Laboratory Grade Colloidal Silver Generator - For Alaska *and beyond*.
-Sneak peek at a rough layout of the SH1106 OLED screen (128x64) As you can see below, there is a lot of pixel space to be organized and utilized more fully.
-screen (128x64) As you can see below, there is a lot of pixel space to be organized and utilized more fully.
+Peek at a rough layout of the SH1106 OLED screen (128x64) 
+As you can see below, there is a lot of pixel space to be organized and utilized more fully.
+screen (128x64)
 ```
 ┌──────────────────────────────────────────────┐
 │  Colloidal Electrolysis Generator v0.2       │
