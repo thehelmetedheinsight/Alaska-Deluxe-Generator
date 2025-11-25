@@ -71,6 +71,19 @@ Until I master the art of Markdown, the following will look simple.
 I would like to offer "Custom assembled" beta versions if you just can't wait for a crowd funded production unit. These would be for contributing members of this project, money, or crypto would be an acceptable contribution.
     
 
-License: GPLv3
+Alaska Deluxe Colloidal Generator – Terrestrial Edition
+Copyright (C) 2025 [Your Real Name or Handle]
 
-Designed with Heinsight with Grok (xAI) – November 2025
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 as
+published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
+
+Co-designed with Heinsight and Grok (xAI) – November 2025
