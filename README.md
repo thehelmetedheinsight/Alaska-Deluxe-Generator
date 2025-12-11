@@ -37,26 +37,27 @@ Until I master the art of Markdown, the following will look simple.
 - Ambient temperature sensor for accurate calibration of electrolysis efficiency
 - Automatic conductivity measurment for accurate addition of electrolyte - ex. Maltodextrin (7 drops)
 - Accurate conductivity measurement of solution both *prior* and *during* production
-- Modulation of power during cycle to produce accurate PPM during and at end of cycle
-- Auto safety shutoff if power goes out of spec IN or OUT
-- 2x18650 cells probably LiFEPo, or LiIon 
-- WiFi hostAP mode, and WiFi client mode - connect to home network
-- http interface - probably need https to avoid browser nag screens
-- beeper to signal stuff - start/stop/electrode short
+- Monitored control of power during cycle to reach target PPM in the timeframe of the cycle
+- Auto safety shutoff if power goes out of spec IN or a shorted electrode contition during OUTPUT
+- 2x18650 cells probably LiIon
+- WiFi hostAP mode or WiFi client to connect to home network
+- http interface - to manage, to monitor, and maybe a lot of other things to extend functionality
+- beeper to signal stuff - start/stop/warning also helps visually impared and maybe Dogs
+- RGB LED to signal ready, generating, finished, and warning. maybe other signals
 ***
 ### Features that will be appearing in a short time:
-- Customizable recipe scripts easily uploadable via web interface (for *Multi-metals* - more about this later!)
+- Customizable recipe scripts easily uploadable via web interface for *Multi-metals* - more about this later!
 - QR code on screen with unique pseudo-random password for local Host AP mode connection - sort of a layer of security
 - Auto shutoff (early) if PPM is achieved before cycle end - may require additional hardware modification/version
 - Modular/modifiable battery configuration in case you have alternate supply chains - may require hardware modification/version/case
-- IP5306 Battery Management - aids ULP mode to extend stanby time for literally *years* extends battery lifetime tremendously
-- HomeAssistant integration - this enables hearing impaired folks where the buzzer is useless
+- Battery Management - utilizes Ultra Low Power (ULP) mode to extend standby time
+- HomeAssistant integration - this may also enable hearing impaired folks where the buzzer is useless
 - Batch management for HomeAssistant - Type of colloidal and stock on hand for wilderness medics and remote uses for example in Alaska ;-)
 - Bluetooth pairing sequence - for possible upcoming smartphone app release - also to aid hearing impaired wtih phone haptics
 - Logging of batch production for analysis stored in spare memory on device - in easily graphable format - humans like pictures
 - Logging of battery charge/energy usage for the ultra OCD perfectionists, hackers, modz
-- 4x 18650 LiFePO4 in 2S2P (7.2v) 3600mAh with charging optimization (3000-7000 charge cycles, (8-10y of daily use), Op. in -30°C
-- TEC to recapture 80-360mW waste heat back to BMS while generating (extends runtimes 2-6x, or adds __weeks__ in standby)
+- 4x 18650 LiFePO4 in 2S2P (7.2v) battery charge management (3000-7000 charge cycles, (8-10y of daily use), Operation. in -30°C with LiFEPO4
+- Peltier TEC to recapture 80-360mW waste heat back to BMS while generating (extends runtimes 2-6x, or adds __weeks__ in standby)
 ***
 ### Some ideas for "flashy" attractive things that humans like:
 - RGB rotary encoder for visual signalling (hearing impaired), disable in menu to save battery
