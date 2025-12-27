@@ -1,7 +1,7 @@
 
 ## Alaska-Deluxe-Generator
 
-### A Self-Contained Laboratory Grade Colloidal Silver Generator - For Alaska *and beyond*.
+### A Self-Contained Laboratory Grade Colloidal Generator - For Alaska *and beyond*.
 ![](./Dec25.25.jpg)
 
 #### First, let's get this out of the way: Located here are plans for a device intended to generate nanoparticle (1-5 micron) metals in an ionically stable aqueous solution. This product is not intended to treat, or cure any disease. How you use the solution that it can make (operated according to specifications) is entirely up to you. Do your own research, Take responsibility for your own health> Use at your own discretion. There can be risks involved in everything. You are responsible. No links or referenes posted here are meant to recommend, endorse, advocate, advertise, or promote any specific protocol for your own uses. These are items you must determine. Thank you for your attention. And now...
