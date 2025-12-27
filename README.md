@@ -30,14 +30,15 @@ screen (128x64)
 ```
 
 ### Some cool features we have already: (Not in order of priority)
-- Designed to take either Battery or PD 2.0 input
-- Full PD compliant input options - auto select input V from PD delivery 
-- Super accurate power monitoring and control - by hardware, controllable from the *code*
+- Designed to take either PD or battery input
+- Robust battery charging controllable in menu!
+- Full PD compliant input options - auto selecting input V from PD avalabilities 
+- Super accurate power monitoring and control from the menu
 - Full power protection of electronics - both ends (Input and Output)
-- Super accurate power measurements of Battery Voltage IN (charging control, and continuous dynamical adjustable output)
+- Super accurate power measurements (charging control, and continuous dynamical adjustable output)
 - Ambient temperature sensor for continuous accurate calibration of electrolysis process
 - Automatic conductivity measurment for accurate addition of electrolyte - ex. food safe Maltodextrin (7 drops)
-- Accurate conductivity measurement of solution both *prior* and *during* process
+- Accurate conductivity measurement monitoring of solution both *prior to and during* the process
 - RGB LED for signalling status - many, many colors to choose from (for the color blind)
 - Monitored control of power during cycle to reach target PPM in a selected timeframe of the production cycle
 - *AUTO SHUTOFF* if power goes out of spec (ex. a shorted electrode contition during OUTPUT, or a power fault from INPUT)
