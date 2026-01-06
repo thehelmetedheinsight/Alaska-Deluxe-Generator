@@ -8,11 +8,11 @@ Updated 12/27/2025
 
 #### First, let's get this out of the way: Located here are plans for a device intended to generate nanoparticle (1-5 micron) metals in an ionically stable aqueous solution. This product is not intended to treat, or cure any disease. How you use the solution that it can make (operated according to specifications) is entirely up to you. Do your own research, Take responsibility for your own health> Use at your own discretion. There can be risks involved in everything. You are responsible. No links or referenes posted here are meant to recommend, endorse, advocate, advertise, or promote any specific protocol for your own uses. These are items you must determine. Thank you for your attention. And now...
 
-#### I just want you to have the ability to produce *laboratory quality* colloidal products when alternatives are inferior, difficult to obtain, or unavailable. IN ADDTION, I'd like to add this device produces solutions that are far superior to any pressed pill. Don't believe in a label or a marketing campaign. Do the research and then you will know.
+#### I just want you to have the ability to produce *laboratory quality* colloidal products when alternatives are inferior, difficult to obtain, or unavailable. *THIS* device produces solutions that are far superior to any pressed pill. Don't trust in a fancy package or a marketing campaign. Do the research. Understand? Then you will know.
 
 Here's a peek at a rough layout of the UI screen (128x64) 
 As you can see below, there is a lot of pixel space to be organized and utilized more fully.
-screen (128x64)
+The screen is 128x64. I prefer clearly understandable intuitive icons and symbols, fast updates, and pragmatic logical information at a glance.
 ```
 ┌──────────────────────────────────────────────┐
 │  Colloidal Electrolysis Generator v0.2       │
@@ -82,14 +82,15 @@ screen (128x64)
 
 ***
 ### Needed:
-- Repository of swanky case designs for 3D printing a case
+- Repository of swanky user submitted case designs for easy 3D printing
 - A logo or something unique to give identity
 
-I would like to offer "Custom assembled" beta versions of the hardware if you just can't wait for a production unit. These would be for contributing members of this project, money, or crypto would be an acceptable contribution.
+I would like to offer "Custom assembled" beta versions of the hardware if you just can't wait for a production unit.
+These would be for contributing members of this project, money, or crypto would be an acceptable contribution.
     
 ```
-Alaska Deluxe Colloidal Generator – Terrestrial Edition
-Copyright (C) 2025 [Your Real Name or Handle]
+Alaska Series Colloidal Generator – Terrestrial Development Edition
+Copyright (C) 2025 Nathan Hein
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 3 as
@@ -103,4 +104,4 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
 
-Co-designed with Heinsight and Grok (xAI) – November 2025
+Co-designed with Heinsight and some help from Grok (xAI) – November 2025
