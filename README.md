@@ -1,23 +1,33 @@
 
 ## Alaska-Deluxe-Generator
 
-Updated 12/27/2025
+Updated: 1/7/2026
+
+Pre-orders coming very soon (getting closer, just a few more days)
 
 ### A Self-Contained Laboratory Grade Colloidal Generator - For Alaska *and beyond*.
 ![](./teaser.jpg)
 
-#### First, let's get this out of the way: Located here are plans for a device intended to generate nanoparticle (1-5 micron) metals in an ionically stable aqueous solution. This product is not intended to treat, or cure any disease. How you use the solution that it can make (operated according to specifications) is entirely up to you. Do your own research, Take responsibility for your own health> Use at your own discretion. There can be risks involved in everything. You are responsible. No links or referenes posted here are meant to recommend, endorse, advocate, advertise, or promote any specific protocol for your own uses. These are items you must determine. Thank you for your attention. And now...
+#### First, let's get the legal stuff out of the way: Located here are plans for a device intended to generate nanoparticles (1-5 micron is ideal) in an ionically stable aqueous solution. This product is not intended to treat, or cure any disease. How you use the solution that *you* make (operated according to specifications) is entirely up to you. Do your own research, Take responsibility for your own health> Use at your own discretion. There can be risks involved in anything. You are responsible. No links or referenes posted here are meant to recommend, endorse, advocate, advertise, or promote any specific protocol for your own uses. These are items you must determine. WE will make a good device with default setting that are "safe" for people who use stuff without reading the directions. Thank you for your attention to these things.
 
-#### I just want you to have the ability to produce *laboratory quality* colloidal products when alternatives are inferior, difficult to obtain, or unavailable. *THIS* device produces solutions that are far superior to any pressed pill. Don't trust in a fancy package or a marketing campaign. Do the research. Understand? Then you will know.
+And now...
 
-Here's a peek at a rough layout of the UI screen (128x64) 
+#### Our goal is for you to have the ability to produce *excellent quality* colloidal products when alternatives are inferior, difficult to obtain, or unavailable. *THIS* device produces solutions that are far superior to any pressed pill, maximizing bioavailability with extremely low contaminants. You can achieve the highest level of satisfaction by reading ALL the documentation and instructions that we will provide.
+
+****The hardware is designed to give you a complete colloidal electrolysis workshop.****
+For the DIY inclined, purchase the board and download the CAD/STL/STEP/Board measurement files (for free) and print your own case, your own design. Print it the way you like.
+You can choose your own battery chemistry and size.
+You can modify the code we provide on your own. Change it, upload it. No restrictions. No planned obsolecense.
+If you break the screen, order another, open the case, and swap out broken one.
+
 As you can see below, there is a lot of pixel space to be organized and utilized more fully.
-The screen is 128x64. I prefer clearly understandable intuitive icons and symbols, fast updates, and pragmatic logical information at a glance.
+The screen is 128x64. We will *try* to have intuitive icons and symbols, fast updates, and pragmatic logical information at a glance. Again, you can customize as you wish.
+
 ```
 ┌──────────────────────────────────────────────┐
-│  Colloidal Electrolysis Generator v0.2       │
+│       Colloidal Electrolysis Workshop        │
 │                                              │
-│  Out: 27.5 V     5.10 uA    5.3 W            │
+│  Out: 27.5 V     15.10 mA    5.3 W           │
 │  Polarity: FORWARD                           │
 │                                              │
 │  Start set: 17.5V   Time: 60min              │
@@ -28,30 +38,51 @@ The screen is 128x64. I prefer clearly understandable intuitive icons and symbol
 │  Press selector to stop                      │
 └──────────────────────────────────────────────┘
 ```
+```
+┌──────────────────────────────────────────────┐
+│               PD Input Report                │
+│                                              │
+│  PD Input Advertisement:                     │
+│                                              │
+│  5V: 2A                                      │
+│  9V: 3A                                      │
+│  12V: 5A                                     │
+│  15V: 3A                                     │
+│  20V: 5A                                     │
+│                                              │
+│  Press selector to return to menu            │
+└──────────────────────────────────────────────┘
+```
 
 ### Some cool features we have already: (Not in order of priority)
 - Built on the reliable ESP32-S3-Mini1 MCU with
 - Full RF Certification
-- Ultra-low power capabilitie Dual-core processor
+- Ultra-low power capabilitity, Dual-core processor
 - Designed to take either PD or battery input
-- Rugged USB-C interface
-- Sturdy rotary encoder button (ALPS EC11)
-- WAGO - Top quality rugged electrode socket
+- Awesome battery charging: limit LiIon/LiPo "full" charge between 20%-90% to prolong battery health
+- Rugged USB-C interface - Durable long life use!
+- Sturdy/Rugged rotary encoder button (ALPS EC11)
+- WAGO - Top quality rugged electrode socket (Made in USA)
 - Field replacable OLED screen 128x64px
-- Super accurate power monitoring and controls
-- Robust programmable battery charging and protection (TPS5100) controllable in menu!
-- Full PD compliant input options - auto selecting input votage from PD (TP5100)
-- Full power protection of electronics - both input and output (TPS2121)
-- Super accurate power measurements (TI INA226) charging profile control (TP5100)
-- Continuous, dynamically adjustable output from MCP4017, XL6019, DRV8872
-- Ambient temperature sensor for accurate calibration of electrolysis process AND battery temperature
-- Automatic conductivity measurment for accurate addition of electrolyte (example: Add 7 drops)
-- Accurate conductivity measurement monitoring of solution *prior to and during* the process
+- Super accurate power measurement and monitoring
+- Robust programmable battery charging and protection controllable in menu 
+- Full PD compliant input options - auto selecting input votage from available PD up to 20V
+- Full power protection of electronics - from PD/battery input to electrode output
+- Super accurate power measurement capabilities which *allow* TONS of cool features:
+  - Battery power input measurement and charging with charging profile control (TP5100)
+  - PD input query (STB4500) and display from the PD source (ex. 5v,9v, 12v, 15v, 20v and realtime current delivery!)
+  - Power Output feedback measurement from/to the electrodes (INA226) (Realtime!)
+- Continuous, dynamically adjustable power from menu, leveraging the MCP4017, XL6019, DRV8872
+  - MCP4017 digital variable resistor for fine grained power output
+  - XL6019 provides boost/buck to handle input range and provide stable output
+  - DRV8872 allows for flipping the polarity of the electrodes to eliminate buildup, and produce the smallest partcles and cleanest solution
+- Ambient temperature sensor for accurate calibration of electrolysis process AND to monitor 2 battery temperature sensors
+- Automatic conductivity measurment for accurate addition of electrolyte (example: Add 7 drops, measure, add 2 drops, measure, etc.)
+- Accurate monitoring of solution *prior to and during* the process to calculate the PPM level and progress, time to complete, and stop when PPM reached
 - RGB LED for signalling status - many, many colors to choose from (ex. RED=ERROR, colors friendly to "color blindness", and blinky/flashing)
-- buzzer/beeper to signal stuff - start/stop/warning also helps visually impared and maybe Dogs - not a speaker
-- Monitored control of power during cycle to reach target PPM in a chosen or optimal timeframe of the production cycle
-- *AUTO SHUTOFF* if power goes out of spec (ex. a shorted electrode contition during OUTPUT, or a power fault from INPUT)
-- Modular/modifiable battery configuration: 1x 4.8V or 2x 8.4V cells choose your favorite battery chemistry (18650 LiION, prismatic)
+- buzzer/beeper to signal stuff - start/stop/warning also helps visually impared and maybe Dogs
+- *AUTO SHUTOFF* if power goes out of spec (ex. a shorted electrode contition during OUTPUT, or a power fault from INPUT, battery fault)
+- Modular/modifiable battery configuration: 1x 4.8V or 2x 4.8V (8.4v) cells. Choose your battery chemistry (18650 LiION, prismatic)
 - Note: battery options are built into the design, adding a battery is an optional upgrade
 - RGB LED to signal ready, generating, finished, and warning. maybe other signals
 
@@ -76,9 +107,11 @@ The screen is 128x64. I prefer clearly understandable intuitive icons and symbol
   
 ***
 ### First pre-production release (very soon Q1-Q2 2026)
-- Full KiCad project (schematic + PCB, gerbers, BOM, CPL)
-- ESP32-S3 firmware (deep sleep, PPM, multi-metal)
-- 3D renders + mason-jar mouting lid/bracket in STL (3D printable format)
+- Hardware design (alpha version) FINISHED
+- Full KiCad project FINISHED (schematic + PCB, gerbers, BOM, CPL)
+- ESP32-S3 firmware IN PROGRESS
+- 3D STL case FINISHED
+- Mason-jar mouting lid/bracket in STL (3D printable format) IN PROGRESS
 
 ***
 ### Needed:
