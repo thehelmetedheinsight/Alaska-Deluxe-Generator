@@ -38,6 +38,7 @@ The screen is 128x64. We will *try* to have intuitive icons and symbols, fast up
 │  Press selector to stop                      │
 └──────────────────────────────────────────────┘
 ```
+You can use this device to read the advertized capabilities of any PD device that uses USB-C connector
 ```
 ┌──────────────────────────────────────────────┐
 │               PD Input Report                │
@@ -69,9 +70,9 @@ The screen is 128x64. We will *try* to have intuitive icons and symbols, fast up
 - Full PD compliant input options - auto selecting input votage from available PD up to 20V
 - Full power protection of electronics - from PD/battery input to electrode output
 - Super accurate power measurement capabilities which *allow* TONS of cool features:
-  - Battery power input measurement and charging with charging profile control (TP5100)
-  - PD input query (STB4500) and display from the PD source (ex. 5v,9v, 12v, 15v, 20v and realtime current delivery!)
-  - Power Output feedback measurement from/to the electrodes (INA226) (Realtime!)
+  - Internal battery power input measurement and charging with charging profile control (TP5100)
+  - PD input query (STB4500) and display from the PD source (ex. 5v,9v, 12v, 15v, 20v)
+  - Power Output feedback measurement from/to the electrodes (INA226) (Realtime capable)
 - Continuous, dynamically adjustable power from menu, leveraging the MCP4017, XL6019, DRV8872
   - MCP4017 digital variable resistor for fine grained power output
   - XL6019 provides boost/buck to handle input range and provide stable output
@@ -86,9 +87,15 @@ The screen is 128x64. We will *try* to have intuitive icons and symbols, fast up
 - Note: battery options are built into the design, adding a battery is an optional upgrade
 - RGB LED to signal ready, generating, finished, and warning. maybe other signals
 
+****A Note about why I did not add a battery****
+TLDR: Yes, you can do it with this board. But it's cheaper/easier to buy a battery bank with good PD support.
+
+The onboard battery explanation: In my wild dream, I thought about adding a battery on board that someone would one day want to buy this and stash it in an off-grid cabin. I imagined a 100w solar panel and this seasonal cabin may be uninhabited for 6-9 months at a time. Knowing what I know about the ESP32 S3 and deep sleep mode, it would be totally possible to expect a good amount of the charge to still be available upon returning to the cabin and needing some colloidal copper, or silver. So, I did choose the components to make this a real possibility. However, for the prototypes I dropped the integration of an on-board battery to soften the initial hardware investment and focused on the USB-C and PD (Power Delivery). This was after I had spent time researching (costs) 10k to 25k mAh portable battery banks. There are several models available (Anker, UGREEN, INIU, Scharge Shargeek) supporting great PD (5V,9V,12V,15V,20V) at 45W+ that would provide 20V at minimum 1.5A which is sufficient for running the unit for several batch cycles. Expect at least 5 Gallons (20x 1qt. mason jar cycles) with a 25,000 mAh battery pack before needing recharge.
+
 ***
 ### Features that will be appearing in a short time:
 - NEAT-O http interface - to manage, to monitor, and maybe a lot of other things to extend functionality
+  - I'm thinking a colloidal generator farm with at least 20 units running simultaneously output 5gal/hr.
 - WiFi hostAP mode or WiFi client to connect to home network
 - QR code on screen with unique pseudo-random password for local Host AP mode connection - sort of a layer of security
 - Customizable recipe scripts easily uploadable via web interface - *Multiple options of nano-particle colloidals*
