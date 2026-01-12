@@ -3,6 +3,8 @@
 
 Updated: 1/7/2026
 
+Prototype boards received 1/8/26 - Testing started...
+
 Pre-orders coming very soon (getting closer, just a few more days)
 
 ### A Self-Contained Laboratory Grade Colloidal Generator - For Alaska *and beyond*.
