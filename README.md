@@ -4,6 +4,8 @@
 Updated: 1/7/2026
 
 Prototype boards received 1/8/26 - Testing started...
+- 1/13/26 I have already noted several design changes which will require another production run before release
+  - Timeframes should be able to be met as planned. (Q1-Q2 2026)
 
 Pre-orders coming very soon (getting closer, just a few more days)
 
@@ -41,6 +43,7 @@ The screen is 128x64. We will *try* to have intuitive icons and symbols, fast up
 └──────────────────────────────────────────────┘
 ```
 You can use this device to read the advertized capabilities of any PD device that uses USB-C connector
+- The hardware supports full analysis of PD sources which is good to have around.
 ```
 ┌──────────────────────────────────────────────┐
 │               PD Input Report                │
