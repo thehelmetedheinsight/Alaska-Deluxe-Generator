@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "WAGO2061")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA Symbols/ul_2061-1601-998-404/KiCADv6/2025-12-11_22-49-35.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "/home/user/Documents/Kicad/easyeda2kicad/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS5100")(type "KiCad")(uri "${KIPRJMOD}/USER_SYMBOL_LIBRARIES/TP5100.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP9808")(type "KiCad")(uri "${KIPRJMOD}/USER_SYMBOL_LIBRARIES/MCP9808-E_MS/MCP9808-E_MS.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2121RUXR")(type "KiCad")(uri "${KIPRJMOD}/USER_SYMBOL_LIBRARIES/TPS2121RUXR/TPS2121RUXR.kicad_sym")(options "")(descr ""))
+  (lib (name "STB4500QTR")(type "KiCad")(uri "${KIPRJMOD}/USER_SYMBOL_LIBRARIES/STUSB4500QTR/STUSB4500QTR.kicad_sym")(options "")(descr ""))
+  (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/SnapEDA Symbols/SSD1306_OLED-0.91-128x32.kicad_sym")(options "")(descr ""))
+  (lib (name "INA219")(type "KiCad")(uri "${KIPRJMOD}/KiCad_libraries/INA219AIDR/INA219AIDR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-S3-Mini-1")(type "KiCad")(uri "${KIPRJMOD}/KiCad_libraries/espressif-kicad-addon/symbols/Espressif.kicad_sym")(options "")(descr ""))
+)

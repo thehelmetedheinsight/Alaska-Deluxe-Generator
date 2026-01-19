@@ -1,0 +1,232 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6d42f743-bfe9-4767-a168-2de573658bb0")
+	(paper "USLetter")
+	(title_block
+		(title "Alaska-Alpha Main Page")
+		(date "2025-12-20")
+		(rev "0.8")
+		(company "Heinsight")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.654 113.538)
+		(size 102.108 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66fd408c-dce9-4d02-bb27-01a8dc0a3bac")
+		(property "Sheetname" "ESP_UI"
+			(at 25.654 112.8264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESPcontrol.kicad_sch"
+			(at 25.654 170.0026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Alaska-Alpha"
+				(path "/6d42f743-bfe9-4767-a168-2de573658bb0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18.542 18.796)
+		(size 114.046 73.152)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c5ab030-2eca-4708-958c-5357cb4b1b40")
+		(property "Sheetname" "PowerIN"
+			(at 18.542 18.0844 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 18.542 92.5326 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Alaska-Alpha"
+				(path "/6d42f743-bfe9-4767-a168-2de573658bb0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 27.432)
+		(size 102.362 68.834)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8bcace2d-7775-46e7-acd1-1d784966306a")
+		(property "Sheetname" "PowerOUT"
+			(at 154.94 26.7204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerOUT.kicad_sch"
+			(at 154.94 96.8506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Alaska-Alpha"
+				(path "/6d42f743-bfe9-4767-a168-2de573658bb0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 211.836 112.268)
+		(size 46.482 32.512)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95d6eee3-fde0-4e47-a4ac-41edd493d62d")
+		(property "Sheetname" "Measurement"
+			(at 211.836 111.5564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Measurement.kicad_sch"
+			(at 211.836 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Alaska-Alpha"
+				(path "/6d42f743-bfe9-4767-a168-2de573658bb0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.764 109.22)
+		(size 50.8 31.496)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b02e058c-23c7-453b-ae27-760f44e591ae")
+		(property "Sheetname" "BattCharge"
+			(at 143.764 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BattCharge.kicad_sch"
+			(at 143.764 141.3006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Alaska-Alpha"
+				(path "/6d42f743-bfe9-4767-a168-2de573658bb0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
