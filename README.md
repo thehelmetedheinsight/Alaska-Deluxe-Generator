@@ -9,6 +9,9 @@ Prototype boards received 1/8/26 - Testing started...
 
 Pre-orders coming very soon (getting closer, just a few more days)
 
+ko-fi: heinsight
+https://ko-fi.com/heinsight
+
 ### A Self-Contained Laboratory Grade Colloidal Generator - For Alaska *and beyond*.
 ![](./teaser.jpg)
 
